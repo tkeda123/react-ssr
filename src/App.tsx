@@ -1,12 +1,11 @@
 import './App.css';
-import { BrowserRouter, Routes } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <>
       <h1>Hello World</h1>
     </>
   );
-}
+};
 
 export default App;
