@@ -2,7 +2,7 @@ import express from 'express';
 import react from 'react';
 import reactDomServer from 'react-dom/server';
 import App from '../src/App.tsx';
-const PORT = env.PORT || 900;
+const PORT = process.env.PORT || 9000;
 const app = express();
 app.get('/', (req, res) => {
   const app = reactDomServer.renderToString(react.createElement(App));
