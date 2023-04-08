@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     path: path.resolve(__dirname, './server/index.js'),
   },
-  output: { path: path.resolve(__dirname, 'dist'), filename: 'bundle.js' },
+  output: { path: path.resolve(__dirname, 'dist'), filename: 'server.js' },
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),

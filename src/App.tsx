@@ -1,14 +1,13 @@
 import './App.css';
+import React from 'react';
 
 const App = () => {
   return (
-    <>
+    <div>
       <h1>自己紹介</h1>
       <ul className="introduction_card">
         <li>前田達哉です。</li>
-        <li>
-          SIerに新卒で入社しました。研修中です。生き残れるように頑張りたいです。
-        </li>
+        <li>SIerに新卒で入社しました。研修中です。</li>
         <li>React、Next.js、JavaScriptなどの勉強をしています。</li>
       </ul>
       <h2>趣味</h2>
@@ -21,7 +20,7 @@ const App = () => {
           プロ野球チームの千葉ロッテを応援しています。好きな選手は益田選手です。
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
